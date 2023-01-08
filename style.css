@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.sectionone,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header {
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;  
+}
