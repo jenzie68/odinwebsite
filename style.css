@@ -1,9 +1,11 @@
 body {
-    display: flex;
-    flex-direction: column;
+    margin: 0;
 }
 
+/*Header*/
+
 .header,
+.backgroundcolor-header,
 .sectionone,
 .footer {
     background-color: #1f2937;
@@ -11,12 +13,17 @@ body {
 }
 
 .header {
-    padding: 10px;
-    margin: 0;
+    padding: 2em;
+    margin-left: 18%;
+    margin-right: 18%;
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;    
+}
+
+.logo {
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -31,4 +38,166 @@ ul {
 a {
     text-decoration: none;
     color: white;  
+}
+
+/*Sectionone*/ 
+.backgroundcolor-sectionone {
+    background-color: #1f2937;
+}
+
+.sectionone,
+.texts {
+    display: flex;
+}
+
+.sectionone {
+    margin-left: 18%;
+    margin-right: 18%;
+    justify-content: space-between;
+    padding: 1em 2em 1em;
+}
+
+img {
+    width: 400px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    padding: 5px 25px 5px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.texts {
+    margin: 0;
+    gap: 20px;
+    width: 500px;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*sectiontwo*/
+
+.main-title-two {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+p {
+    font-size: 18px;
+    color: #808080;
+    width: 160px;
+    text-align: center;
+    margin: 0;
+}
+
+.box {
+  height: 150px;
+  border: 2px solid;
+  border-radius: 4px;
+  width: 150px
+}
+
+.sectiontwo,
+.container-imgandtxt,
+.imgandtxts {
+    display: flex;
+}
+
+.container-imgandtxt {
+    flex-direction: row;
+    gap: 100px;
+}
+
+.imgandtxts {
+    flex-direction: column;
+    padding: 50px;
+    margin: 0;
+}
+
+.sectiontwo {
+    flex-direction: column;
+    padding: 2em 1em 2em;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    gap: 50px;
+}
+
+p {
+    margin-top: 10px;
+}
+/*section three*/
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+    margin-left: 200px ;
+}
+
+.nameofwhosaidthequote {
+    color: #1f2937;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 820px;
+}
+
+.backgroundcolor-sectionthree {
+    background-color: rgb(220,220,220);
+}
+
+.sectionthree {
+    padding: 6em 1em 6em;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+/*sectionfour*/ 
+
+.cta-title {
+    font-weight: bold;
+}
+
+.cta-texts { 
+    color: white;
+}
+
+.sectionfour {
+    padding: 4rem 3rem 4rem;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.container,
+button {
+    display: flex;
+}
+
+.container {
+    padding: 2rem 4rem 2rem;
+    justify-content: space-between;
+    background-color:#3882f6;
+    border-radius: 5px;
+}
+
+button {
+    color: white;
+}
+
+/*Footer*/ 
+
+.container-footer {
+    margin-right: 18%;
+    margin-left: 18%;
+    padding: 2em 1em 2em ;
+    display: flex;
+    justify-content: center;
 }
